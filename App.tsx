@@ -1,11 +1,9 @@
-import { View, Text } from 'react-native'
-import React from 'react'
-import Navigation from './src/components/Navigation'
+import 'react-native-gesture-handler';
+import React from 'react';
+import {ScreenStack} from './src/navigation';
 
 const App = () => {
-  return (
-    <Navigation />
-  )
-}
+  return <ScreenStack />;
+};
 
-export default App
+export default App;

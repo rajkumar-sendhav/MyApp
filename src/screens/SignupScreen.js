@@ -1,17 +1,17 @@
 import { View, StyleSheet } from 'react-native'
 import React from 'react'
-import BottomTabs from '../Components/home/BottomTabs'
+import CustomerRegister from '../Components/signupScreen/CustomerRegister'
 
-const HomeScreen = ({ navigation }) => (
+const SignupScreen = ({ navigation }) => (
     <View style={styles.container}>
-        <BottomTabs navigation={navigation} />
+        <CustomerRegister navigation={navigation} />
     </View>
 )
+
+export default SignupScreen
 
 const styles = StyleSheet.create({
     container: {
         flex: 1,
     },
 })
-
-export default HomeScreen
